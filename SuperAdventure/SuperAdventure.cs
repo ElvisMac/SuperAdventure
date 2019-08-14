@@ -18,6 +18,7 @@ namespace SuperAdventure
         public SuperAdventure()
         {
             InitializeComponent();
+            #warning Player class can be initialised better.
             _player = new Player();
             _player.CurrentHitPoints = 10;
             _player.MaximumHitPoints = 10;
