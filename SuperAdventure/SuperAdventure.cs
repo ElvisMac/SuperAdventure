@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,7 +18,11 @@ namespace SuperAdventure
         public SuperAdventure()
         {
             InitializeComponent();
+
             #warning Player class can be initialised better.
+            Location location = new Location(1, "Home", "This is your house");
+            #warning Player class can be initialised better.
+
             _player = new Player();
             _player.CurrentHitPoints = 10;
             _player.MaximumHitPoints = 10;
